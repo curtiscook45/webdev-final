@@ -1,0 +1,53 @@
+/* Custom background for entire page */
+body {
+    background-color: #cad390; /* Change to any background color */
+    font-family: Arial, sans-serif;
+    color: #333333;
+}
+
+/* Header div styling */
+.header-div {
+    background-color: #c3a382; /* Light blue header */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation bar styling */
+.nav-div {
+    background-color: #101417;
+    padding: 10px;
+}
+
+.nav-div ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav-div ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-div ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Content div blocks */
+.content-div {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+}
+
+/* Font color and family changes */
+h1, h2 {
+    color: #2e8b57; /* Sea green headings */
+    font-family: 'Georgia', serif;
+}
